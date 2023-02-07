@@ -1,0 +1,281 @@
+/* #7dd0e3 - cyan
+   #E3907D - orange
+*/
+
+
+body{
+    font-family: 'Roboto' ,sans-serif;
+    background-color: black;
+    color: #7dd0e3;
+    padding-top: 70px;
+}
+
+iframe{
+
+    width: 1045px; 
+    height: 523px; 
+}
+
+
+footer{
+    text-align: center;
+    background-color: #7dd0e3;
+    color: black;
+    height: 50px;
+    padding-top: 15px;
+}
+
+.heading-big{
+    justify-self: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: #E3907D;
+}
+
+/* -------------------Footer------------------------ */
+
+
+
+
+/* ------------NavBar---------------- */
+.navbar{
+    font-size: 1.2rem;
+    z-index: 1000;
+   
+    
+    
+}
+.bg-custom{
+    background-color: #7dd0e3;
+    color: black;
+}
+
+.nav-link:hover{
+    color: #E3907D;
+    font-size: 1.25rem;
+}
+
+/* ---------Headings------------- */
+
+.heading-name{
+    font-size: 2.5rem;
+}
+
+.heading-nas{
+    font-size: 1rem;;
+}
+
+
+
+/* ---------------Sectiuni--------------- */
+
+.sec{
+    padding: 20px;
+}
+
+.img{
+    width: 300px;
+    float: left;
+    margin: 5px;
+}
+
+.para{
+    width: 100%;
+    text-align: justify;
+    font-size: 1.4rem;
+}
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.text-center{
+    text-align: center;
+}
+
+
+.border-round{
+    border-radius: 100%;
+} 
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #E3907D;
+    margin-bottom: 10px;
+    font-size: 2.75rem;
+}
+
+.height{
+    height: 100px;
+}
+
+.heading-4{
+    margin-top: 50px;
+    margin-bottom: 0;
+}
+.color-my{
+    color: white;
+}
+.margin-left{
+    margin-left: 20px;
+}
+
+.car-img{
+    width: 25%;
+    float: left;
+    margin: 10px;
+}
+/* ----------Despre---------------- */
+.sec-despre{
+
+    margin-bottom: 0;
+    
+}
+
+
+
+.link{
+    text-decoration: none;
+    color:  #E3907D;
+    font-size: 1rem;
+}
+
+.heading-name{
+    text-decoration: underline;
+    
+}
+/* -----------Albert Einstein----------- */
+
+@media (max-width: 700px){
+
+    iframe{
+
+        width: 100%; 
+        height: 300px; 
+    }
+    
+    body{
+        text-align: center;
+    }
+    
+    .underline{
+        margin-bottom: 20px;
+    }
+
+    .heading-name{
+        text-decoration: underline;
+    }
+
+    .img{
+        width: 100%;
+    }
+
+    .heading-name{
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .heading-nas{
+        text-align: center;
+    }
+
+    .car-img{
+        width: 100%;
+    }
+
+
+}
+
+
+/* --------------------Animation---------------------- */
+
+.navbar{
+    animation-duration: 0.3s;
+    animation-name: navAnim;
+}
+.heading-big{
+    animation-duration: 3s;
+    animation-name: titleAnim;
+}
+
+.heading-name {
+    animation-duration: 2s;
+    animation-name: nameAnim;
+
+}
+
+.heading-nas{
+    animation-duration: 2s;
+    animation-name: nameAnim;
+}
+
+.img{
+    animation-duration: 1s;
+    animation-name: imgAnim;
+}
+/* .para{
+    animation-duration: 3s;
+    animation-name: paraAnim;
+}
+
+@keyframes paraAnim {
+    0%{
+        
+        margin-right: -300px;
+    }
+
+    100%{
+  
+        margin-right: 0px;
+    }
+} */
+
+@keyframes imgAnim {
+    0%{
+        margin-left: -500px;
+    }
+
+    100%{
+        margin-left: 0px;
+    }
+}
+
+@keyframes nameAnim {
+    0%{
+        rotate: 90;
+        margin-left: -300px;
+    }
+    
+    100%{
+        margin-left: 0px;
+    }
+}
+
+@keyframes titleAnim {
+    0%{
+        margin-left: -2000px;
+    }
+
+    100%{
+        margin-left: 0px;
+    }
+}
+
+
+
+@keyframes navAnim{
+    0%{
+        width: 0;
+    }
+
+
+   100%{
+       
+       width: 100%;
+   }
+   
+}
